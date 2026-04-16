@@ -1,1 +1,24 @@
-
+{
+  "movies": [
+    {
+      "movie_name": "Inception",
+      "release_date": "2010",
+      "studio": "Warner Bros",
+      "imdb_rank": 8.8,
+      "details": {
+        "director": "Christopher Nolan",
+        "budget": "160M"
+      }
+    },
+    {
+      "movie_name": "Interstellar",
+      "release_date": "2014",
+      "studio": "Paramount",
+      "imdb_rank": 8.7,
+      "details": {
+        "director": "Christopher Nolan",
+        "budget": "165M"
+      }
+    }
+  ]
+}
