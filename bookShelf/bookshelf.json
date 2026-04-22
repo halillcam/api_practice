@@ -1,0 +1,26 @@
+{
+  "libraryName": "Bilgi Ocağı",
+  "location": "Ankara",
+  "books": [
+    {
+      "title": "Dart ve Flutter",
+      "author": "Uzman Yazılımcı",
+      "pages": 350
+    },
+    {
+      "title": "Algoritma Dünyası",
+      "author": "Bilge Avcı",
+      "pages": 210
+    },
+       {
+      "title": "Marslı",
+      "author": "Timas",
+      "pages": 210
+    },
+    {
+      "title": "Kozmos",
+      "author": "Timas",
+      "pages": 340
+    }
+  ]
+}
