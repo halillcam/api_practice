@@ -24,17 +24,16 @@ class _FakeStoreAdvanceViewState extends State<FakeStoreAdvanceView> {
 
   void changeLoading() {
     setState(() {
-      _isLoading = !_isLoading; // tersini yap demektir yani true at
+      _isLoading = !_isLoading;
     });
   }
   // get
 
   Future<void> _getItems() async {
     changeLoading();
-    // Veriyi servisten çekiyoruz
+
     _items = await _service.getItemsToService();
 
-    // Flutter'a haber veriyoruz: "Dolap doldu, ekranı güncelle!"
     changeLoading();
   }
 
